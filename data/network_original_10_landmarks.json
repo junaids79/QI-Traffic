@@ -1,0 +1,372 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "name": "Charminar",
+      "latitude": 17.3616,
+      "longitude": 78.4747,
+      "place_type": "Historical Landmark",
+      "display_name": "Charminar (Hyderabad)"
+    },
+    {
+      "id": "N2",
+      "name": "Golconda Fort",
+      "latitude": 17.3833,
+      "longitude": 78.4011,
+      "place_type": "Historical Landmark",
+      "display_name": "Golconda Fort (Hyderabad)"
+    },
+    {
+      "id": "N3",
+      "name": "Inorbit Mall, Madhapur",
+      "latitude": 17.434,
+      "longitude": 78.386,
+      "place_type": "Shopping Mall",
+      "display_name": "Inorbit Mall, Madhapur (Hyderabad)"
+    },
+    {
+      "id": "N4",
+      "name": "Sarath City Capital Mall",
+      "latitude": 17.456,
+      "longitude": 78.376,
+      "place_type": "Shopping Mall",
+      "display_name": "Sarath City Capital Mall (Hyderabad)"
+    },
+    {
+      "id": "N5",
+      "name": "HITEC City Cyber Towers",
+      "latitude": 17.4504,
+      "longitude": 78.3816,
+      "place_type": "IT Hub",
+      "display_name": "HITEC City Cyber Towers (Hyderabad)"
+    },
+    {
+      "id": "N6",
+      "name": "Yashoda Hospitals, Somajiguda",
+      "latitude": 17.4239,
+      "longitude": 78.4583,
+      "place_type": "Hospital",
+      "display_name": "Yashoda Hospitals, Somajiguda (Hyderabad)"
+    },
+    {
+      "id": "N7",
+      "name": "Osmania University",
+      "latitude": 17.4131,
+      "longitude": 78.5289,
+      "place_type": "University",
+      "display_name": "Osmania University (Hyderabad)"
+    },
+    {
+      "id": "N8",
+      "name": "NTR Gardens",
+      "latitude": 17.4125,
+      "longitude": 78.4688,
+      "place_type": "Public Park",
+      "display_name": "NTR Gardens (Hyderabad)"
+    },
+    {
+      "id": "N9",
+      "name": "Salar Jung Museum",
+      "latitude": 17.3713,
+      "longitude": 78.4804,
+      "place_type": "Museum",
+      "display_name": "Salar Jung Museum (Hyderabad)"
+    },
+    {
+      "id": "N10",
+      "name": "Chowmahalla Palace",
+      "latitude": 17.3578,
+      "longitude": 78.4717,
+      "place_type": "Historical Palace",
+      "display_name": "Chowmahalla Palace (Hyderabad)"
+    }
+  ],
+  "edges": [
+    [
+      "N1",
+      "N2",
+      2.4,
+      4,
+      50,
+      "MEDIUM",
+      40,
+      1,
+      ""
+    ],
+    [
+      "N2",
+      "N6",
+      2.2,
+      4,
+      50,
+      "HIGH",
+      31,
+      1,
+      "Truck"
+    ],
+    [
+      "N6",
+      "N3",
+      2.5,
+      5,
+      45,
+      "LOW",
+      45,
+      1,
+      ""
+    ],
+    [
+      "N3",
+      "N7",
+      2.3,
+      5,
+      45,
+      "HIGH",
+      28,
+      1,
+      "Bus"
+    ],
+    [
+      "N7",
+      "N4",
+      2.0,
+      4,
+      50,
+      "MEDIUM",
+      40,
+      1,
+      ""
+    ],
+    [
+      "N4",
+      "N8",
+      2.6,
+      5,
+      45,
+      "LOW",
+      45,
+      1,
+      ""
+    ],
+    [
+      "N8",
+      "N5",
+      2.1,
+      4,
+      50,
+      "VERY_HIGH",
+      23,
+      0,
+      "Truck,Bus"
+    ],
+    [
+      "N5",
+      "N1",
+      2.3,
+      4,
+      50,
+      "LOW",
+      50,
+      1,
+      ""
+    ],
+    [
+      "N2",
+      "N10",
+      2.0,
+      4,
+      50,
+      "LOW",
+      50,
+      1,
+      ""
+    ],
+    [
+      "N10",
+      "N9",
+      2.4,
+      5,
+      45,
+      "MEDIUM",
+      36,
+      1,
+      ""
+    ],
+    [
+      "N9",
+      "N5",
+      2.0,
+      4,
+      50,
+      "HIGH",
+      31,
+      1,
+      ""
+    ],
+    [
+      "N9",
+      "N1",
+      3.0,
+      6,
+      50,
+      "LOW",
+      50,
+      1,
+      ""
+    ],
+    [
+      "N1",
+      "N3",
+      3.1,
+      6,
+      50,
+      "VERY_HIGH",
+      23,
+      1,
+      "Truck"
+    ],
+    [
+      "N2",
+      "N1",
+      2.4,
+      4,
+      50,
+      "MEDIUM",
+      40,
+      1,
+      ""
+    ],
+    [
+      "N6",
+      "N2",
+      2.2,
+      4,
+      50,
+      "HIGH",
+      31,
+      1,
+      ""
+    ],
+    [
+      "N3",
+      "N6",
+      2.5,
+      5,
+      45,
+      "LOW",
+      45,
+      1,
+      ""
+    ],
+    [
+      "N7",
+      "N3",
+      2.3,
+      5,
+      45,
+      "HIGH",
+      28,
+      1,
+      ""
+    ],
+    [
+      "N4",
+      "N7",
+      2.0,
+      4,
+      50,
+      "MEDIUM",
+      40,
+      1,
+      ""
+    ],
+    [
+      "N8",
+      "N4",
+      2.6,
+      5,
+      45,
+      "LOW",
+      45,
+      1,
+      ""
+    ],
+    [
+      "N5",
+      "N8",
+      2.1,
+      4,
+      50,
+      "VERY_HIGH",
+      23,
+      0,
+      "Truck,Bus"
+    ],
+    [
+      "N1",
+      "N5",
+      2.3,
+      4,
+      50,
+      "LOW",
+      50,
+      1,
+      ""
+    ],
+    [
+      "N10",
+      "N2",
+      2.0,
+      4,
+      50,
+      "LOW",
+      50,
+      1,
+      ""
+    ],
+    [
+      "N9",
+      "N10",
+      2.4,
+      5,
+      45,
+      "MEDIUM",
+      36,
+      1,
+      ""
+    ],
+    [
+      "N5",
+      "N9",
+      2.0,
+      4,
+      50,
+      "HIGH",
+      31,
+      1,
+      ""
+    ],
+    [
+      "N1",
+      "N9",
+      3.0,
+      6,
+      50,
+      "LOW",
+      50,
+      1,
+      ""
+    ],
+    [
+      "N3",
+      "N1",
+      3.1,
+      6,
+      50,
+      "VERY_HIGH",
+      23,
+      1,
+      "Truck"
+    ]
+  ]
+}
